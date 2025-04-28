@@ -6,10 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-
-        
-    </header>
+<?php include 'header.php' ?>
     <main>
     <form method = "post" action = "process.php">
         <label for="username">Username:</label>
@@ -21,11 +18,5 @@
         <input type="hidden" name="token " value="abc123">
         <input type="submit" value="Login">
     </form>
-</main>
-<footer>
-
-
-</footer>
-
-</body>
-</html>
+    </main>
+<?php include 'footer.php' ?>

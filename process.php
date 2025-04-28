@@ -12,4 +12,3 @@ else
 {
  echo "Invalid Login. <a href='login.html'> Try again</a>";
 }
-?>
